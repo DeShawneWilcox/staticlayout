@@ -20,7 +20,6 @@ html, body {
 }
 .learnMore{
     background-color: #2d2d2d;
-    align: right;
     border: rgba(0, 0, 0, 0.5) transparent;
     padding: 1;
     font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
