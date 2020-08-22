@@ -1,0 +1,286 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+
+#tuitionNAvBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #fbd715;
+    text-align: center;
+    color: black;
+    height: auto;
+    border-bottom: 0px solid;
+    font-size: 14px;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+    
+}
+.learnMore{
+    background-color: #2d2d2d;
+    align: right;
+    border: rgba(0, 0, 0, 0.5) transparent;
+    padding: 1;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+    
+}
+
+nav {
+    background-image: url("../HTMLCSSPreWork/3-assets/elevenfifty-shield.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #2d2d2d;
+    height: 4em;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 14px;
+    padding: -1em; 
+    margin: 2em;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif; 
+}
+
+i {
+    size: 70px;
+    margin: 2em;
+}
+#schedule{
+background: #b3d4fc;
+padding: auto;
+margin: 3;
+font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 21px;
+border: none;
+}
+
+#apply{
+background: #ec1414;
+padding: auto;
+margin: 3;
+font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 21px;
+border: none;
+
+}
+
+
+/* #directoryNavBar {
+    height: 50px;
+    
+}
+
+#directoryNavBar ul {
+     display: flex; 
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+#directoryNavBar li {
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+    flex: 1; 
+    font-size: 14px;
+    padding: 1%;
+} */
+
+
+.rightAligned {
+    float: right;
+}
+
+
+
+#efaClass{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#inClass{
+    position: absolute;
+    bottom: 0;
+    top: -1;
+    align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 70px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+    margin: 180px;
+
+}
+
+#attend{
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding: .25em 22px;
+    margin-bottom: -1em;
+    margin-top: -1em;
+    text-align: left;
+    width: auto;
+    
+}
+
+#inClassDirection{
+    position: absolute;
+    bottom: 0;
+    top: -1;
+    width: 100%;
+    padding: 0;
+    margin-left: 11.3em;
+    margin-bottom: 3.5em;
+}
+
+#learnMore{
+    font-weight: bold;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #e33e42;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    line-height: 3;
+    width: auto;
+    padding: -11.7px, 19.5px, 10.2px;
+}
+
+#cI{
+    text-align: center;
+    font-size: 42px;
+    color: #348db9;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif; 
+    margin: 0px 0px 8.4px;
+    
+
+}
+
+#courseInformation{
+    display: inline-flex;
+    color: #676767;
+    font: 17px; 
+    background-color: #EFEFEF;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 1%;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.courseSelectionOne{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 1em;
+    
+}
+
+.freeIntro{
+    font: 28px;
+    color: #2d2d2d;
+    margin: 0px, 0px, 16px;
+    width: 228;
+    heght: 90;
+    margin:1em;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#signUpNow{
+    background-color: #e33e42;
+    padding: 8.5px;
+    justify-content: center;
+    border: 0;
+
+}
+
+.courseSelectionTwo{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 1em;
+
+}
+
+.full-Time{
+    font: 28px;
+    color: #2d2d2d;
+    width: 228;
+    heght: 90;
+    margin:1em;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+#full-TimeCourses{
+    background-color: #e33e42;
+    padding: 8.5px;
+    justify-content: center;
+    border: 0;
+}
+
+.courseSelectionThree{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 1em;
+}
+
+.part-Time{
+    font: 28px;
+    color: #2d2d2d;
+    width: 228;
+    heght: 90;
+    margin: 1em;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#part-TimeCourses{
+    background-color: #e33e42;
+    padding: 8.5px;
+    justify-content: center;
+    border: 0;
+}
+
+.techWorld{
+    display: flex;
+    justify-content: center;
+    margin: 2em 10em 2em 10em;
+}
+
+.techImage {
+    display: flex;
+    align-items: center;
+}
+.techInfo {
+    padding: 5em 1em 5em 1em;
+}
+#techHeading {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #348db9;
+}
+
+.badge{
+    width: 5em;
+}
+
+#about{
+    
+    /* align-items: left;
+    margin: 10; */
+}
