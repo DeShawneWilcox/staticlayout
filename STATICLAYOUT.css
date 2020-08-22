@@ -27,7 +27,7 @@ html, body {
 }
 
 nav {
-    background-image: url("../HTMLCSSPreWork/3-assets/elevenfifty-shield.png");
+    background-image: url("./assets/elevenfifty-shield.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #2d2d2d;
